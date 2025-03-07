@@ -28,7 +28,7 @@ public class Tugas_1_Modul_1 {
         } else if (pilihan == 2){
             System.out.printf("Masukkan Nama: ");
             nama = scanner.nextLine();
-            System.out.printf("Masukkan NIM: ");
+            System.out.printf("Masukkan NIM: "); 
             nim = scanner.nextLine();
 
             if (nama.equals("Mareno Ali Ibrahim") && nim.equals("202410370110339")){
