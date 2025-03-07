@@ -13,7 +13,7 @@ public class Tugas_1_Modul_1 {
         System.out.print("\nMasukkan pilihan: ");
         pilihan = scanner.nextInt();
 
-        scanner.nextLine();
+        scanner.nextLine(); //ini sudah saya update
         if (pilihan == 1){
             System.out.print("Masukkan username: ");
             username = scanner.nextLine();
@@ -21,26 +21,26 @@ public class Tugas_1_Modul_1 {
             password = scanner.nextLine();
 
             if (username.equals("Admin339") && password.equals("Password339")){
-                System.out.printf("Login Admin berhasil!");
+                System.out.print("Login Admin berhasil!");
             } else {
-                System.out.printf("Login gagal! Username atau password salah.");
+                System.out.print("Login gagal! Username atau password salah.");
             }
         } else if (pilihan == 2){
-            System.out.printf("Masukkan Nama: ");
+            System.out.print("Masukkan Nama: ");
             nama = scanner.nextLine();
-            System.out.printf("Masukkan NIM: "); 
+            System.out.print("Masukkan NIM: ");
             nim = scanner.nextLine();
 
             if (nama.equals("Mareno Ali Ibrahim") && nim.equals("202410370110339")){
-                System.out.printf("Login Mahasiswa berhasil!\n");
-                System.out.printf("nama: Mareno Ali Ibrahim\n");
-                System.out.printf("NIM: 202410370110339\n");
+                System.out.print("Login Mahasiswa berhasil!\n");
+                System.out.print("nama: Mareno Ali Ibrahim\n");
+                System.out.print("NIM: 202410370110339\n");
             } else {
-                System.out.printf("Login gagal! Username atau password salah.");
+                System.out.print("Login gagal! Username atau password salah.");
             }
 
         } else {
             System.out.print("Pilihan tidak valid.");
         }
-    }
+    } //among us
 }
